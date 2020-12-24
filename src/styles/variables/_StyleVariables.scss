@@ -1,0 +1,48 @@
+$rojoprimario: #891928;
+// $rojosecundariohover: #8c001a;
+$gris4: #dbdbdb;
+$gris5: #989898;
+$blanco: #fff;
+$azulSecundario: #007faa;
+
+$negroTextos: #283238;
+$negroTextosTint: #515b62;
+$rojoSecundario: #c4043f;
+$gris6: #676767;
+
+$sombraCard: rgba(152, 152, 152, 0.1);
+
+$primaryPurple: #65184e;
+$primaryHoverPurple: #a2457c;
+$negroButtons: #283238;
+
+
+:export {
+  rojoprimario: $rojoprimario;
+  // rojosecundariohover: $rojosecundariohover;
+  gris4: $gris4;
+  gris5: $gris5;
+  blanco: $blanco;
+  azulSecundario: $azulSecundario;
+
+  negroTextos: $negroTextos;
+  negroTextosTint: $negroTextosTint;
+  rojoSecundario: $rojoSecundario;
+  gris6: $gris6;
+
+  sombraCard: $sombraCard;
+  primaryPurple: $primaryPurple;
+  primaryHoverPurple: $primaryHoverPurple;
+
+  negroButtons: $negroButtons;
+}
+// how to use it?
+// https://css-tricks.com/getting-javascript-to-talk-to-css-and-sass/
+/*
+ {
+  primaryColor: #fe4e5"
+  backgroundColor: #fefef"
+  padding: 124p"
+ }
+*/
+// document.getElementById("app").style.padding = variables.padding;

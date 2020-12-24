@@ -1,0 +1,36 @@
+.main_table_result {
+  .result_title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #283238;
+    margin-bottom: -25px;
+    letter-spacing: 0.5px;
+    padding-bottom: 20px;
+  }
+
+  .result_value {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+    color: #65184e;
+    @media (max-width: 600px) {
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 54px;
+    }
+  }
+
+  .result_description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #676767;
+  }
+}

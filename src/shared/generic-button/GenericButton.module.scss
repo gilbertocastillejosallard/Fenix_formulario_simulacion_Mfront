@@ -1,0 +1,35 @@
+@import '../../styles/variables/StyleVariables';
+.component {
+  button {
+    padding: 16px 24px;
+
+    background: $primaryPurple;
+    border: none;
+    border-radius: 8px;
+
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+
+    color: #fff;
+
+    & > img {
+      margin-left: 5px;
+      vertical-align: bottom;
+      filter: brightness(0) invert(1);
+    }
+
+    &:disabled {
+      background: #dbdbdb;
+      color: #989898;
+
+      & > img {
+        filter: none;
+      }
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+}
