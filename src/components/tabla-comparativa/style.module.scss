@@ -1,0 +1,106 @@
+.tabla_comparativa_fenix {
+  .tabla_comp_fenix {
+    width: 624px;
+    height: 200px;
+
+    border-spacing: 0px;
+
+    @media (max-width: 420px) {
+      width: 324px;
+    }
+
+    @media (max-width: 420px) {
+      @for $i from 1 through 3 {
+        th:nth-child(#{$i}) {
+          font-size: 14px;
+        }
+      }
+    }
+
+    thead > tr > th {
+      border-top: none;
+      border-bottom: none;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 21px;
+      text-align: center;
+      @media (max-width: 360px) {
+        font-size: 14px;
+      }
+    }
+
+    tbody > tr > td {
+      font-style: normal;
+      line-height: 24px;
+      @media (max-width: 360px) {
+        font-size: 14px;
+        line-height: 21px;
+      }
+    }
+
+    .hasTh {
+      color: #007faa;
+      background-color: rgba(0, 127, 170, 0.1);
+      border-top-right-radius: 8px;
+      border-top-left-radius: 8px;
+      height: 50px;
+      border-bottom: none;
+      @media (max-width: 420px) {
+        font-size: 14px;
+      }
+    }
+
+    .tdOne {
+      font-size: 16px;
+      border-bottom: 1px solid #cccccc;
+      border-top: none;
+      @media (max-width: 360px) {
+        font-size: 14px;
+      }
+    }
+
+    .tdTwo {
+      font-size: 16px;
+      border-bottom: 1px solid #cccccc;
+      color: #007faa;
+      background-color: rgba(0, 127, 170, 0.1);
+      text-align: center;
+      border-top: none;
+      @media (max-width: 360px) {
+        font-size: 14px;
+      }
+    }
+
+    .tdThree {
+      font-size: 16px;
+      border-bottom: 1px solid #cccccc;
+      text-align: center;
+      border-top: none;
+    }
+
+    .tdFour {
+      font-size: 18px;
+      border-top: 2.5px solid #54aedc;
+      font-weight: 500;
+    }
+
+    .tdFive {
+      font-size: 18px;
+      border-top: 2.5px solid #54aedc;
+      font-weight: 500;
+      text-align: center;
+      color: #007faa;
+      background-color: rgba(0, 127, 170, 0.1);
+      border-bottom-right-radius: 8px;
+      border-bottom-left-radius: 8px;
+    }
+
+    .tdSix {
+      font-size: 18px;
+      border-top: 2.5px solid #54aedc;
+      font-weight: 500;
+      text-align: center;
+    }
+  }
+}
