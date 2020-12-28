@@ -1,0 +1,20 @@
+text=lf
+*.md linguist-vendored eol=lf
+*.cfignore linguist-vendored eol=lf
+*.gitattributes linguist-vendored eol=lf
+*.gitignore linguist-vendored eol=lf
+*.huskyrc linguist-vendored eol=lf
+*.lintstagedrc linguist-vendored eol=lf
+*.prettierrc linguist-vendored eol=lf
+*.yml linguist-vendored eol=lf
+*.html linguist-vendored eol=lf
+*.json linguist-vendored eol=lf
+*.css linguist-vendored eol=lf
+*.scss linguist-vendored eol=lf
+*.js linguist-vendored eol=lf
+*.jsx linguist-vendored eol=lf
+*.tsx linguist-vendored eol=lf
+*.py linguist-vendored eol=lf
+Jenkinsfile linguist-vendored eol=lf
+LICENSE linguist-vendored eol=lf
+CHANGELOG.md export-ignore 
