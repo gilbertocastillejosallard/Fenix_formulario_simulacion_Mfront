@@ -11,7 +11,7 @@ module.exports = {
   },
   output: {
     publicPath: 'https://fnx-recomendaciones-ae740a.netlify.app/',
-    //publicPath: 'http://localhost:4000/',
+    //publicPath: 'http://localhost:6003/',
 
     //change the url to the production url.
   },
@@ -93,6 +93,6 @@ module.exports = {
   devServer: {
     contentBase: path.join(__dirname, 'dist'),
     compress: true,
-    port: 4000,
+    port: 6003,
   },
 };
