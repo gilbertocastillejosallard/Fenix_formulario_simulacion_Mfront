@@ -106,6 +106,9 @@ const TablaComparativaView: FC<TablaComparativaViewProps> = ({
           className={styles.advance_button}
         />
       </div>
+      <div className={styles.back_container}>
+        <a href="/"><strong>Volver a simular</strong></a>
+      </div>
     </div>
   );
 };
